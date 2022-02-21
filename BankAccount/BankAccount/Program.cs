@@ -6,19 +6,19 @@ double montoPa;
 Console.WriteLine("Bienvenido señor usuario.");
 Console.WriteLine("===============");
 
-    Console.WriteLine("Ingrese sus datos de usuario: ");
-    Console.WriteLine("Nombre: ");
-    string nombrePa = Console.ReadLine();
-    Console.WriteLine("Apellido: ");
-    string apellidoPa = Console.ReadLine();
-    Console.WriteLine("Direccion: ");
-    string direccionPa = Console.ReadLine();
-    Console.WriteLine("NIT: ");
-    string NITPa = Console.ReadLine();
-    Console.WriteLine("Saldo: ");
-    double saldoPa = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese sus datos de usuario: ");
+Console.WriteLine("Nombre: ");
+string nombrePa = Console.ReadLine();
+Console.WriteLine("Apellido: ");
+string apellidoPa = Console.ReadLine();
+Console.WriteLine("Direccion: ");
+string direccionPa = Console.ReadLine();
+Console.WriteLine("NIT: ");
+string NITPa = Console.ReadLine();
+Console.WriteLine("Saldo: ");
+double saldoPa = int.Parse(Console.ReadLine());
 
-    var usuario = new CuentaBancaria(nombrePa, apellidoPa, direccionPa, NITPa, saldoPa);
+var usuario = new CuentaBancaria(nombrePa, apellidoPa, direccionPa, NITPa, saldoPa);
 
 do
 {
@@ -55,5 +55,5 @@ do
             Console.WriteLine("Opcion invalida, intente de nuevo.");
             break;
     }
-} while (opcion != 5 );
+} while (opcion != 5);
 

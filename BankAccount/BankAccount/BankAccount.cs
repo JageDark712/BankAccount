@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankAccountE
+﻿namespace BankAccountE
 {
     public class CuentaBancaria
     {
@@ -24,7 +18,7 @@ namespace BankAccountE
         }
         public double Deposito(double montoPa)
         {
-            Saldo = Saldo+ montoPa; 
+            Saldo = Saldo + montoPa;
             return Saldo;
         }
         public double Retiro(double montoPa)
